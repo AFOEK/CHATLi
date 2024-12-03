@@ -1,0 +1,29 @@
+                END USER LICENSE AGREEMENT (EULA)               
+============================Preamble============================
+                            
+    This is an experimental light moderated chat room, based using
+python as its server engine, it's using basic socket protocol.
+Collected data only from user input into the application such as:
+    1. Unique created username
+    2. Unique user generated access token
+    3. All user typed chat
+
+==============================Rules=============================
+
+    Therefore all user should be aware what they type before send
+into the chat room. This room is moderated by a moderator who have
+ability to revoke token, or straight up ban users who don't obey
+rules. For the rules and consequnces are listed as below:
+    1. Racist, bigotry, and hateful comment will result in ban if
+       reported.
+    2. No sexual, grooming, and suggestive messages. Failed to
+       comply will recieve ban.
+    3. Discusing illegal stuff such as insurrection, coup d'etat,
+       rebellion, uprising, political discontent, or dissident 
+       will result in revoked access token and ban.
+    4. No spam or brain rot comment. Failed to comply, access token
+       will be revoked.
+    5. All user messages are not encrypted, please reconsider to
+       share private and personal data.
+    6. All user must proactive in maintaining peace and order.
+    
