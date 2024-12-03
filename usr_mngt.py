@@ -24,7 +24,7 @@ def add_or_upd_usr(usrname, eula_acc=False):
 
     if usrname in users:
         users[usrname]["token"] = token
-        users[usrname]["token"] = eula_acc
+        users[usrname]["eula"] = eula_acc
         users[usrname]["created_at"] = datetime.now().isoformat()
     else:
         users[usrname] = {

@@ -101,7 +101,7 @@ def handle_client(client, addr):
                 broadcast(f"{target} has been banned by {username}.", sender=None, color=Fore.RED)
             elif msg.startwith("/unban ") and is_mod(username):
                 target = msg.split(" ", 1)[1]
-                ban_usr(target)
+                unban_user(target)
                 broadcast(f"{target} has been banned by {username}.", sender=None, color=Fore.RED)
             elif msg.startwith("/revoke ") and is_mod(username):
                 target = msg.split(" ", 1)[1]
